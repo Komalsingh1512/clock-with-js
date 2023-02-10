@@ -40,24 +40,23 @@
     position: absolute;
     border-radius: 5px;
     left: 48.8%;
-     transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0.8;
   }
   .hour-hand{
-    width: 1.8%;
-    height: 32%;
-    top: 17%;
-    opacity: 0.8;
+    width: 10px;
+    height: 30%;
+    top: 20%;
   }
   .min-hand{
-    width: 1.6%;
+    width: 7px;
     height: 35%;
     top: 15%;
-    opacity: 0.8;
   }
   .second-hand{
-    width: 1.4%;
+    width: 3px;
     height: 41%;
     top: 8%;
-    opacity: 0.8;
+    background-color: #f60808;
   }
   
